@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- 蓝色背景 -->
+  <rect x="0" y="0" width="200" height="200" fill="#3182ce" rx="10" ry="10" />
+  
+  <!-- 雨滴 -->
+  <g fill="white" opacity="0.8">
+    <!-- 第一列雨滴 -->
+    <path d="M30,40 L25,60 L35,60 Z" />
+    <path d="M30,80 L25,100 L35,100 Z" />
+    <path d="M30,120 L25,140 L35,140 Z" />
+    
+    <!-- 第二列雨滴 -->
+    <path d="M70,30 L65,50 L75,50 Z" />
+    <path d="M70,70 L65,90 L75,90 Z" />
+    <path d="M70,110 L65,130 L75,130 Z" />
+    <path d="M70,150 L65,170 L75,170 Z" />
+    
+    <!-- 第三列雨滴 -->
+    <path d="M110,40 L105,60 L115,60 Z" />
+    <path d="M110,80 L105,100 L115,100 Z" />
+    <path d="M110,120 L105,140 L115,140 Z" />
+    
+    <!-- 第四列雨滴 -->
+    <path d="M150,30 L145,50 L155,50 Z" />
+    <path d="M150,70 L145,90 L155,90 Z" />
+    <path d="M150,110 L145,130 L155,130 Z" />
+    <path d="M150,150 L145,170 L155,170 Z" />
+  </g>
+  
+  <!-- 雪花 -->
+  <g fill="white">
+    <!-- 雪花1 -->
+    <circle cx="40" cy="50" r="3" />
+    <circle cx="90" cy="40" r="3" />
+    <circle cx="130" cy="60" r="3" />
+    <circle cx="170" cy="45" r="3" />
+    
+    <!-- 雪花2 -->
+    <circle cx="50" cy="100" r="3" />
+    <circle cx="100" cy="110" r="3" />
+    <circle cx="140" cy="90" r="3" />
+    <circle cx="180" cy="105" r="3" />
+    
+    <!-- 雪花3 -->
+    <circle cx="30" cy="150" r="3" />
+    <circle cx="80" cy="160" r="3" />
+    <circle cx="120" cy="140" r="3" />
+    <circle cx="160" cy="155" r="3" />
+  </g>
+  
+  <!-- 汽车图标 -->
+  <g transform="translate(85, 80)" fill="white">
+    <!-- 车身 -->
+    <rect x="-20" y="0" width="40" height="20" rx="5" ry="5" />
+    <!-- 车轮 -->
+    <circle cx="-10" cy="20" r="5" />
+    <circle cx="10" cy="20" r="5" />
+    <!-- 车顶 -->
+    <rect x="-15" y="-10" width="30" height="10" rx="3" ry="3" />
+  </g>
+</svg>

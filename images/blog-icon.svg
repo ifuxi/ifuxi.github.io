@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <!-- 博客图标 - 书本和笔的组合 -->
+  <!-- 书本底部 -->
+  <rect x="40" y="60" width="120" height="100" rx="5" fill="#FDE68A" stroke="#F59E0B" stroke-width="4"/>
+  
+  <!-- 书本页面 -->
+  <path d="M50 70C50 65 55 60 60 60H150C155 60 160 65 160 70V150C160 155 155 160 150 160H60C55 160 50 155 50 150V70Z" fill="white" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- 书本中间线 -->
+  <line x1="100" y1="60" x2="100" y2="160" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- 文本线条 - 左页 -->
+  <line x1="60" y1="80" x2="90" y2="80" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="60" y1="95" x2="90" y2="95" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="60" y1="110" x2="90" y2="110" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="60" y1="125" x2="90" y2="125" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="60" y1="140" x2="90" y2="140" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- 文本线条 - 右页 -->
+  <line x1="110" y1="80" x2="140" y2="80" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="110" y1="95" x2="140" y2="95" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="110" y1="110" x2="140" y2="110" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="110" y1="125" x2="140" y2="125" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="110" y1="140" x2="140" y2="140" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- 笔 -->
+  <path d="M150 40L160 30L170 40L160 50L150 40Z" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+  <path d="M110 80L150 40L160 50L120 90L110 80Z" fill="#FBBF24" stroke="#D97706" stroke-width="2"/>
+  <path d="M110 80L120 90L110 95L110 80Z" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- 红色圆形背景 -->
+  <circle cx="100" cy="100" r="90" fill="#e53e3e" />
+  <!-- 白色边框 -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="white" stroke-width="5" />
+  <!-- 白色横杠 -->
+  <rect x="30" y="90" width="140" height="20" fill="white" />
+</svg>

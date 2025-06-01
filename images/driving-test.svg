@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <!-- 驾驶测试图标 - 方向盘和驾照 -->
+  
+  <!-- 方向盘 -->
+  <circle cx="100" cy="90" r="50" fill="#DBEAFE" stroke="#3B82F6" stroke-width="4"/>
+  <circle cx="100" cy="90" r="40" fill="white" stroke="#3B82F6" stroke-width="3"/>
+  <circle cx="100" cy="90" r="10" fill="#3B82F6"/>
+  
+  <!-- 方向盘握把 - 上 -->
+  <path d="M95 50L95 70C95 75 105 75 105 70L105 50" fill="#3B82F6" stroke="#2563EB" stroke-width="2"/>
+  
+  <!-- 方向盘握把 - 下 -->
+  <path d="M95 130L95 110C95 105 105 105 105 110L105 130" fill="#3B82F6" stroke="#2563EB" stroke-width="2"/>
+  
+  <!-- 方向盘握把 - 左 -->
+  <path d="M60 85L80 85C85 85 85 95 80 95L60 95" fill="#3B82F6" stroke="#2563EB" stroke-width="2"/>
+  
+  <!-- 方向盘握把 - 右 -->
+  <path d="M140 85L120 85C115 85 115 95 120 95L140 95" fill="#3B82F6" stroke="#2563EB" stroke-width="2"/>
+  
+  <!-- 驾照 -->
+  <rect x="60" y="120" width="80" height="50" rx="5" fill="white" stroke="#3B82F6" stroke-width="3"/>
+  
+  <!-- 驾照照片区域 -->
+  <rect x="70" y="130" width="25" height="30" rx="2" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- 驾照文本线 -->
+  <line x1="105" y1="135" x2="130" y2="135" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="105" y1="145" x2="130" y2="145" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="105" y1="155" x2="130" y2="155" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- 驾照标志 -->
+  <path d="M65 120L75 110H125L135 120" fill="#BFDBFE" stroke="#3B82F6" stroke-width="2"/>
+  <text x="90" y="118" font-family="Arial" font-size="8" font-weight="bold" fill="#3B82F6">驾驶证</text>
+</svg>

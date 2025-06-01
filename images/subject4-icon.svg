@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <!-- 科目四图标 - 交通信号灯和道路 -->
+  
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="70" fill="#DCFCE7" stroke="#22C55E" stroke-width="4"/>
+  
+  <!-- 道路 -->
+  <path d="M40 120H160" stroke="#22C55E" stroke-width="10" stroke-linecap="round"/>
+  <path d="M40 120H160" stroke="white" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 10"/>
+  
+  <!-- 交通信号灯杆 -->
+  <rect x="70" y="60" width="10" height="60" fill="#22C55E" stroke="#16A34A" stroke-width="2"/>
+  
+  <!-- 交通信号灯 -->
+  <rect x="60" y="40" width="30" height="70" rx="5" fill="#22C55E" stroke="#16A34A" stroke-width="2"/>
+  
+  <!-- 红灯 -->
+  <circle cx="75" cy="55" r="8" fill="#EF4444" stroke="#DC2626" stroke-width="1"/>
+  
+  <!-- 黄灯 -->
+  <circle cx="75" cy="75" r="8" fill="#FACC15" stroke="#EAB308" stroke-width="1"/>
+  
+  <!-- 绿灯 (亮起) -->
+  <circle cx="75" cy="95" r="8" fill="#4ADE80" stroke="#16A34A" stroke-width="1"/>
+  <circle cx="75" cy="95" r="10" fill="none" stroke="#4ADE80" stroke-width="1" opacity="0.5">
+    <animate attributeName="r" values="10;15;10" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 汽车 -->
+  <rect x="110" y="105" width="40" height="20" rx="5" fill="#22C55E" stroke="#16A34A" stroke-width="2"/>
+  <rect x="120" y="95" width="20" height="15" rx="3" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+  
+  <!-- 车轮 -->
+  <circle cx="120" cy="125" r="5" fill="#16A34A" stroke="#15803D" stroke-width="1"/>
+  <circle cx="140" cy="125" r="5" fill="#16A34A" stroke="#15803D" stroke-width="1"/>
+  
+  <!-- 安全标志 -->
+  <circle cx="140" cy="60" r="15" fill="white" stroke="#22C55E" stroke-width="2"/>
+  <path d="M140 50L140 70" stroke="#22C55E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M130 60L150 60" stroke="#22C55E" stroke-width="2" stroke-linecap="round"/>
+</svg>

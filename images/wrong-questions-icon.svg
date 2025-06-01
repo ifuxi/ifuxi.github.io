@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <!-- 错题本图标 - 试卷和错号的组合 -->
+  
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="70" fill="#F5F3FF" stroke="#8B5CF6" stroke-width="4"/>
+  
+  <!-- 试卷 -->
+  <rect x="50" y="50" width="100" height="120" rx="5" fill="white" stroke="#8B5CF6" stroke-width="3"/>
+  
+  <!-- 试卷顶部装饰 -->
+  <rect x="50" y="50" width="100" height="20" rx="5" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="85" y="65" font-family="Arial" font-size="10" font-weight="bold" fill="#8B5CF6">错题本</text>
+  
+  <!-- 试题选项 A -->
+  <circle cx="65" cy="90" r="5" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="62" y="93" font-family="Arial" font-size="8" font-weight="bold" fill="#8B5CF6">A</text>
+  <line x1="80" y1="90" x2="130" y2="90" stroke="#8B5CF6" stroke-width="2"/>
+  
+  <!-- 试题选项 B -->
+  <circle cx="65" cy="110" r="5" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="62" y="113" font-family="Arial" font-size="8" font-weight="bold" fill="#8B5CF6">B</text>
+  <line x1="80" y1="110" x2="130" y2="110" stroke="#8B5CF6" stroke-width="2"/>
+  
+  <!-- 试题选项 C -->
+  <circle cx="65" cy="130" r="5" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="62" y="133" font-family="Arial" font-size="8" font-weight="bold" fill="#8B5CF6">C</text>
+  <line x1="80" y1="130" x2="130" y2="130" stroke="#8B5CF6" stroke-width="2"/>
+  
+  <!-- 试题选项 D -->
+  <circle cx="65" cy="150" r="5" fill="white" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="62" y="153" font-family="Arial" font-size="8" font-weight="bold" fill="#8B5CF6">D</text>
+  <line x1="80" y1="150" x2="130" y2="150" stroke="#8B5CF6" stroke-width="2"/>
+  
+  <!-- 错号标记 -->
+  <circle cx="140" cy="70" r="20" fill="#F5F3FF" stroke="#8B5CF6" stroke-width="3"/>
+  <path d="M130 60L150 80" stroke="#8B5CF6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M150 60L130 80" stroke="#8B5CF6" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- 错题标记 - 选项A上的错号 -->
+  <path d="M135 90L145 90" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- 错题标记 - 选项C上的错号 -->
+  <path d="M135 130L145 130" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- 动画效果：错号闪烁 -->
+  <circle cx="140" cy="70" r="22" fill="none" stroke="#8B5CF6" stroke-width="1" opacity="0.5">
+    <animate attributeName="r" values="22;25;22" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

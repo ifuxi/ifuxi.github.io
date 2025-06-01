@@ -1,0 +1,1 @@
+function m(){return{getItem:e=>typeof window>"u"?null:localStorage.getItem(e),setItem:(e,t)=>{typeof window>"u"||localStorage.setItem(e,t)},removeItem:e=>{typeof window>"u"||localStorage.removeItem(e)}}}export{m as u};

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <!-- 博客详情图标 - 打开的书本和放大镜 -->
+  <!-- 书本底部 -->
+  <path d="M40 70C40 65 45 60 50 60H150C155 60 160 65 160 70V150C160 155 155 160 150 160H50C45 160 40 155 40 150V70Z" fill="#FDE68A" stroke="#F59E0B" stroke-width="4"/>
+  
+  <!-- 书本页面 - 左侧 -->
+  <path d="M45 70C45 67.5 47.5 65 50 65H95V155H50C47.5 155 45 152.5 45 150V70Z" fill="white" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- 书本页面 - 右侧 (翻开状态) -->
+  <path d="M105 65H150C152.5 65 155 67.5 155 70V150C155 152.5 152.5 155 150 155H105V65Z" fill="white" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- 书本中间线 (书脊) -->
+  <path d="M95 65C95 65 100 70 100 75C100 80 100 140 100 145C100 150 95 155 95 155" stroke="#F59E0B" stroke-width="3"/>
+  <path d="M105 65C105 65 100 70 100 75C100 80 100 140 100 145C100 150 105 155 105 155" stroke="#F59E0B" stroke-width="3"/>
+  
+  <!-- 文本线条 - 左页 -->
+  <line x1="55" y1="80" x2="85" y2="80" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="55" y1="95" x2="85" y2="95" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="55" y1="110" x2="85" y2="110" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="55" y1="125" x2="85" y2="125" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="55" y1="140" x2="85" y2="140" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- 文本线条 - 右页 -->
+  <line x1="115" y1="80" x2="145" y2="80" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="115" y1="95" x2="145" y2="95" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="115" y1="110" x2="145" y2="110" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="115" y1="125" x2="145" y2="125" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="115" y1="140" x2="145" y2="140" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- 放大镜 -->
+  <circle cx="140" cy="45" r="15" fill="white" stroke="#F59E0B" stroke-width="3"/>
+  <line x1="130" y1="55" x2="115" y2="70" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  <!-- 放大镜反光效果 -->
+  <path d="M135 40C135 37.5 137.5 35 140 35" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+</svg>

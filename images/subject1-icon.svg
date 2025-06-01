@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <!-- 科目一图标 - 试卷和笔 -->
+  
+  <!-- 试卷背景 -->
+  <rect x="40" y="40" width="120" height="140" rx="5" fill="white" stroke="#3B82F6" stroke-width="4"/>
+  
+  <!-- 试卷顶部装饰 -->
+  <rect x="40" y="40" width="120" height="20" rx="5" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+  <text x="85" y="55" font-family="Arial" font-size="10" font-weight="bold" fill="#3B82F6">科目一</text>
+  
+  <!-- 试题选项 A -->
+  <circle cx="55" cy="80" r="5" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+  <text x="52" y="83" font-family="Arial" font-size="8" font-weight="bold" fill="#3B82F6">A</text>
+  <line x1="70" y1="80" x2="140" y2="80" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- 试题选项 B -->
+  <circle cx="55" cy="100" r="5" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+  <text x="52" y="103" font-family="Arial" font-size="8" font-weight="bold" fill="#3B82F6">B</text>
+  <line x1="70" y1="100" x2="140" y2="100" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- 试题选项 C -->
+  <circle cx="55" cy="120" r="5" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+  <text x="52" y="123" font-family="Arial" font-size="8" font-weight="bold" fill="#3B82F6">C</text>
+  <line x1="70" y1="120" x2="140" y2="120" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- 试题选项 D -->
+  <circle cx="55" cy="140" r="5" fill="white" stroke="#3B82F6" stroke-width="2"/>
+  <text x="52" y="143" font-family="Arial" font-size="8" font-weight="bold" fill="#3B82F6">D</text>
+  <line x1="70" y1="140" x2="140" y2="140" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- 笔 -->
+  <path d="M150 60L160 50L170 60L160 70L150 60Z" fill="#3B82F6" stroke="#2563EB" stroke-width="2"/>
+  <path d="M110 100L150 60L160 70L120 110L110 100Z" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+  <path d="M110 100L120 110L110 115L110 100Z" fill="#3B82F6" stroke="#2563EB" stroke-width="2"/>
+  
+  <!-- 底部装饰 -->
+  <rect x="60" y="160" width="80" height="10" rx="2" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1"/>
+</svg>
